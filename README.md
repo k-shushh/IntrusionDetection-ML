@@ -1,6 +1,4 @@
-# IntrusionDetection-ML
-
-Cyber Security Threat Classification Using Machine Learning
+# Cyber Security Threat Classification Using Machine Learning
 
 📌 Project Overview
 This project focuses on classifying cybersecurity threats using **Machine Learning**. The goal is to preprocess a given dataset, train multiple ML models, and evaluate their effectiveness in detecting and categorizing network intrusions.
