@@ -17,7 +17,7 @@ We use **Random Forest** and **Support Vector Machine (SVM)** for classification
 ⚙️ Installation & Setup
 Follow these steps to set up and run the project on your system.
 
-INSTALL DEPENDENCIES
+🛠️ **INSTALL DEPENDENCIES**
 Ensure Python and necessary libraries are installed:
 ```bash
 pip install pandas numpy scikit-learn matplotlib seaborn jupyter
@@ -28,42 +28,43 @@ RUN THE PYTHON SCRIPT
 python main.py
 ```
 
-PROJECT WORKFLOW
-1️. Data Preprocessing
+🛠️ **PROJECT WORKFLOW**
+
+1️. **Data Preprocessing**
 Load the dataset and inspect its structure.
 Handle missing values and inconsistent data.
 Encode categorical variables (e.g., protocol types).
 Normalize numerical features for better model performance.
 
-2️. Feature Selection
+2️. **Feature Selection**
 Identify key features that contribute to attack classification.
 Use feature importance techniques (e.g., correlation heatmaps, Random Forest feature importance).
 
-3️. Model Training
+3️. **Model Training**
 Split the dataset into Training (80%) and Testing (20%) sets.
 Train two classification models:
 Random Forest Classifier
 Support Vector Machine (SVM).
 
-4️. Model Evaluation
+4️. **Model Evaluation**
 Compare models based on:
 Accuracy
 Precision
 Recall
 F1-Score
 
-Visualize the results using:
+**Visualize the results using**:
 Confusion Matrix
 Feature Importance plots
 
-RESULTS
+📊 **RESULTS**
 Random Forest gave comparitively better results than Support Vector Machine.
 
-FUTURE IMPROVEMENTS
+🚀 **FUTURE IMPROVEMENTS**
 Optimize for better and more flexible results.
 Implement Deep Learning (Neural Networks) for improved accuracy.
 Use real-time threat detection with live network traffic.
 Test with larger, real-world datasets for better generalization.
 
-AUTHOR: Khushi Gupta
-E-MAIL: khushhiii.28@gmail.com
+**AUTHOR**: Khushi Gupta
+**E-MAIL**: khushhiii.28@gmail.com
